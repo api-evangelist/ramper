@@ -1,0 +1,96 @@
+# Ramper Documentation
+
+## Ramper Documentation
+
+- [WELCOME](https://docs.ramper.xyz/welcome.md): Ramper stands as the go-to digital channel for transitioning from Web2 to Web3. With a mission to 'empower progress,' it provides DeFi infrastructure & loyalty solutions for businesses & communities.
+- [Developer Dashboard](https://docs.ramper.xyz/developer-guide/developer-dashboard.md): The Developer Dashboard is a control panel for creating, managing apps, and customizing UI Brand design. API keys will be issued to connect to the Ramper SDK. View user data and history here.
+- [Developer Dashboard (Legacy)](https://docs.ramper.xyz/developer-guide/developer-dashboard-legacy.md): Developer Dashboard is a control panel for you to create and manage apps as well as NFT Collections. API keys will be issued to connect to the Ramper SDK. View user data and NFT purchase history here.
+- [Quickstart](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart.md): Ramper Embedded Wallet SDK is a non-custodial wallet & web3 login solution. Let anyone log into DApps instantly without having to download wallets, use browser extensions, or store seed phrases.
+- [For AI Agents](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-ai-agents.md)
+- [For Web Apps](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-web-apps.md)
+- [Multichain Supported](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-web-apps/multichain-supported.md)
+- [Wallet Integration](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-web-apps/multichain-supported/wallet-integration.md)
+- [Approve NFT](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-web-apps/multichain-supported/approve-nft.md)
+- [Approve Token](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-web-apps/multichain-supported/approve-token.md)
+- [Sign Typed](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-web-apps/multichain-supported/sign-typed.md)
+- [Get Started on Viction](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-web-apps/get-started-on-viction.md)
+- [Version 1](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-web-apps/version-1.md)
+- [Get Started on Viction](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-web-apps/version-1/get-started-on-viction.md)
+- [Get Started on zkSync Era](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-web-apps/version-1/get-started-on-zksync-era.md)
+- [Get Started on EVM](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-web-apps/version-1/get-started-on-evm.md)
+- [Get Started on Chiliz](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-web-apps/version-1/get-started-on-chiliz.md)
+- [Get Started on NEAR](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-web-apps/version-1/get-started-on-near.md)
+- [Get Started on Terra](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-web-apps/version-1/get-started-on-terra.md)
+- [SDK Specifications](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-web-apps/version-1/sdk-specifications.md): These are the functions you would use in your dApp to interact with Ramper. Import each from @ramper/ethereum, @ramper/terra, or @ramper/near accordingly.
+- [Initialization](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-web-apps/version-1/sdk-specifications/initialization.md): You can configure various aspects of Ramper UI by passing in a config to init() function. Make sure to first visit the Developer Dashboard to obtain your App ID and App Secret.
+- [Sign In/Out](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-web-apps/version-1/sdk-specifications/sign-in-out.md)
+- [Transactions](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-web-apps/version-1/sdk-specifications/transactions.md)
+- [Session Management](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-web-apps/version-1/sdk-specifications/session-management.md)
+- [Vanilla JS SDK](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-web-apps/version-1/sdk-specifications/vanilla-js-sdk.md): Beta Preview
+- [In-App Wallet View](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-web-apps/version-1/in-app-wallet-view.md)
+- [WalletView](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-web-apps/version-1/in-app-wallet-view/walletview.md): Ramper SDK provides "WalletView", a wallet interface that displays inside your DApp.
+- [Fiat Onramp](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-web-apps/version-1/in-app-wallet-view/fiat-onramp.md)
+- [Standalone Wallet](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-web-apps/version-1/in-app-wallet-view/standalone-wallet.md)
+- [CONNECT MOBILE SDK](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-web-apps/version-1/connect-mobile-sdk.md): Currently React Native is only available on EVM
+- [Get Started on Mobile](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-web-apps/version-1/connect-mobile-sdk/get-started-on-mobile.md): Ramper's React Native SDK helps developers provide easy access to the Blockchain for non-native crypto users through their SSO accounts.
+- [React Native EVM](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-web-apps/version-1/connect-mobile-sdk/react-native-evm.md)
+- [For Unity Apps](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-unity-apps.md)
+- [For Telegram Mini Apps](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-telegram-mini-apps.md)
+- [Set up Telegram bot](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-telegram-mini-apps/set-up-telegram-bot.md)
+- [Implement Ramper Telegram SDK](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-telegram-mini-apps/implement-ramper-telegram-sdk.md)
+- [For React Native Apps](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-react-native-apps.md): Ramper's React Native SDK helps developers provide easy access to the Blockchain for non-native crypto users through their SSO accounts.
+- [Installation](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-react-native-apps/installation.md)
+- [Getting Started](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-react-native-apps/getting-started.md): The RamperContext provides a global context for the Ramper wallet integration, managing authentication, theming, dapp functions, etc.
+- [Wallet Integration](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-react-native-apps/wallet-integration.md)
+- [Sign Typed](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-react-native-apps/sign-typed.md)
+- [Approve](https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-react-native-apps/approve.md)
+- [Terms & Conditions](https://docs.ramper.xyz/embedded-wallet-sdk/terms-and-conditions.md)
+- [Privacy Policy](https://docs.ramper.xyz/embedded-wallet-sdk/privacy-policy.md)
+- [About Ramper Wallet](https://docs.ramper.xyz/ramper-wallet/about-ramper-wallet.md): ⭐ Ramper Wallet is currently available on both the web extension (Chrome) and mobile app (iOS/Android). 🔥 Coming soon: Ramper Wallet for Firefox, and Microsoft Edge
+- [User Guides](https://docs.ramper.xyz/ramper-wallet/user-guides.md)
+- [Authentication](https://docs.ramper.xyz/ramper-wallet/user-guides/authentication.md)
+- [How to send NFTs](https://docs.ramper.xyz/ramper-wallet/user-guides/how-to-send-nfts.md)
+- [How to sign in to a new account](https://docs.ramper.xyz/ramper-wallet/user-guides/how-to-sign-in-to-a-new-account.md)
+- [Wallet settings](https://docs.ramper.xyz/ramper-wallet/user-guides/wallet-settings.md)
+- [How to Send & Receive tokens](https://docs.ramper.xyz/ramper-wallet/user-guides/how-to-send-and-receive-tokens.md)
+- [How to add custom tokens](https://docs.ramper.xyz/ramper-wallet/user-guides/how-to-add-custom-tokens.md)
+- [Manage Tokens](https://docs.ramper.xyz/ramper-wallet/user-guides/manage-tokens.md)
+- [General settings](https://docs.ramper.xyz/ramper-wallet/user-guides/general-settings.md)
+- [How to send assets via email](https://docs.ramper.xyz/ramper-wallet/user-guides/how-to-send-assets-via-email.md)
+- [How to use Vault](https://docs.ramper.xyz/ramper-wallet/user-guides/how-to-use-vault.md)
+- [How to send assets via OneID](https://docs.ramper.xyz/ramper-wallet/user-guides/how-to-send-assets-via-oneid.md)
+- [How to migrate accounts from Old version to New version](https://docs.ramper.xyz/ramper-wallet/user-guides/how-to-migrate-accounts-from-old-version-to-new-version.md)
+- [User FAQs](https://docs.ramper.xyz/ramper-wallet/user-faqs.md)
+- [Which networks are supported on Ramper?](https://docs.ramper.xyz/ramper-wallet/user-faqs/which-networks-are-supported-on-ramper.md)
+- [What social accounts can I use to log in to Ramper?](https://docs.ramper.xyz/ramper-wallet/user-faqs/what-social-accounts-can-i-use-to-log-in-to-ramper.md)
+- [What is the difference between a Password and a Passphrase?](https://docs.ramper.xyz/ramper-wallet/user-faqs/what-is-the-difference-between-a-password-and-a-passphrase.md)
+- [Zero-gas transactions](https://docs.ramper.xyz/ramper-wallet/user-faqs/zero-gas-transactions.md)
+- [Does Ramper hold my funds?](https://docs.ramper.xyz/ramper-wallet/user-faqs/does-ramper-hold-my-funds.md)
+- [Can I import my wallet from Ramper to another Web3 wallet?](https://docs.ramper.xyz/ramper-wallet/user-faqs/can-i-import-my-wallet-from-ramper-to-another-web3-wallet.md)
+- [Can I import my wallet to Ramper?](https://docs.ramper.xyz/ramper-wallet/user-faqs/can-i-import-my-wallet-to-ramper.md)
+- [Why can't I see my assets?](https://docs.ramper.xyz/ramper-wallet/user-faqs/why-cant-i-see-my-assets.md)
+- [What is gas fee?](https://docs.ramper.xyz/ramper-wallet/user-faqs/what-is-gas-fee.md)
+- [Can I get my assets back if I send them to the wrong addresses?](https://docs.ramper.xyz/ramper-wallet/user-faqs/can-i-get-my-assets-back-if-i-send-them-to-the-wrong-addresses.md)
+- [I forgot the password of my social accounts. How can I access my funds on Ramper?](https://docs.ramper.xyz/ramper-wallet/user-faqs/i-forgot-the-password-of-my-social-accounts.-how-can-i-access-my-funds-on-ramper.md)
+- [What happens if my social account is compromised?](https://docs.ramper.xyz/ramper-wallet/user-faqs/what-happens-if-my-social-account-is-compromised.md)
+- [Can I recover my wallet if I lose my social account?](https://docs.ramper.xyz/ramper-wallet/user-faqs/can-i-recover-my-wallet-if-i-lose-my-social-account.md)
+- [Can I change the email that is associated with my wallet address?](https://docs.ramper.xyz/ramper-wallet/user-faqs/can-i-change-the-email-that-is-associated-with-my-wallet-address.md)
+- [I can't find the answer to my question. How can I get support?](https://docs.ramper.xyz/ramper-wallet/user-faqs/i-cant-find-the-answer-to-my-question.-how-can-i-get-support.md)
+- [What is a Protected Account?](https://docs.ramper.xyz/ramper-wallet/user-faqs/what-is-a-protected-account.md)
+- [I forgot the PIN code to log in to Ramper Wallet. How can I access my funds?](https://docs.ramper.xyz/ramper-wallet/user-faqs/i-forgot-the-pin-code-to-log-in-to-ramper-wallet.-how-can-i-access-my-funds.md)
+- [Which email domains are blocked?](https://docs.ramper.xyz/ramper-wallet/user-faqs/which-email-domains-are-blocked.md)
+- [Ramper Wallet (Extension) Integration](https://docs.ramper.xyz/ramper-wallet/ramper-wallet-extension-integration.md)
+- [EVM Dapp Integration](https://docs.ramper.xyz/ramper-wallet/ramper-wallet-extension-integration/evm-dapp-integration.md): Integration
+- [Sei Dapp Integration](https://docs.ramper.xyz/ramper-wallet/ramper-wallet-extension-integration/sei-dapp-integration.md)
+- [Privacy Policy](https://docs.ramper.xyz/ramper-wallet/privacy-policy.md)
+- [Terms of Service (240101)](https://docs.ramper.xyz/ramper-wallet/terms-of-service-240101.md)
+- [Terms of Service](https://docs.ramper.xyz/ramper-wallet/terms-of-service.md)
+- [About Ramper NFT Checkout](https://docs.ramper.xyz/nft-checkout-sdk/about-ramper-nft-checkout.md): Let your customers purchase NFTs with fiat instantly. It takes five minutes to integrate, and is free.
+- [Get Started on EVM](https://docs.ramper.xyz/nft-checkout-sdk/get-started-on-evm.md)
+- [Get Started on NEAR](https://docs.ramper.xyz/nft-checkout-sdk/get-started-on-near.md)
+- [Setting Up Your Collection](https://docs.ramper.xyz/nft-checkout-sdk/setting-up-your-collection.md)
+- [Moving Your Collection to Production](https://docs.ramper.xyz/nft-checkout-sdk/moving-your-collection-to-production.md)
+- [Purchase History](https://docs.ramper.xyz/nft-checkout-sdk/purchase-history.md)
+- [Terms of Service](https://docs.ramper.xyz/nft-checkout-sdk/terms-of-service.md)
+- [Privacy Policy](https://docs.ramper.xyz/nft-checkout-sdk/privacy-policy.md)
+- [Import](https://docs.ramper.xyz/import.md)

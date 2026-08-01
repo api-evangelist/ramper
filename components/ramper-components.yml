@@ -1,0 +1,45 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-web-apps/version-1/in-app-wallet-view
+notes: >-
+  Ramper exposes prebuilt, embeddable client-side UI surfaces rendered by the
+  Embedded Wallet SDK (loaded via the @ramper/@ramper-v2 packages or a CDN
+  window.ramper global). These are hosted/prebuilt UI components, distinct from
+  the server-side/client SDK APIs catalogued in packages/.
+component_families:
+  - family: Authentication
+    description: Hosted social-login modal for self-custody wallet creation and sign-in.
+    components:
+      - name: Sign-In Modal
+        description: >-
+          Ramper-hosted login UI invoked by signIn()/signInWithProvider();
+          supports Email, Google, Facebook, Apple, and Twitter OAuth to create or
+          access a non-custodial wallet without seed phrases or extensions.
+        docs: https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-web-apps/version-1/sdk-specifications/sign-in-out
+  - family: WalletView
+    description: In-DApp embeddable wallet interface.
+    components:
+      - name: WalletView
+        description: >-
+          A wallet interface that renders inside the host DApp, exposing balance,
+          token transfers, transaction signatures, and fiat on-ramp.
+        docs: https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-web-apps/version-1/in-app-wallet-view/walletview
+      - name: Fiat Onramp
+        description: Embedded fiat-to-crypto on-ramp surface within WalletView.
+        docs: https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-web-apps/version-1/in-app-wallet-view/fiat-onramp
+      - name: Standalone Wallet
+        description: Standalone hosted wallet surface for full wallet functionality.
+        docs: https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-web-apps/version-1/in-app-wallet-view/standalone-wallet
+  - family: NFT Checkout
+    description: Embeddable fiat NFT purchase flow.
+    components:
+      - name: NFT Checkout
+        description: >-
+          Drop-in checkout that lets customers buy NFTs with fiat instantly;
+          documented as a ~5-minute integration.
+        docs: https://docs.ramper.xyz/nft-checkout-sdk/about-ramper-nft-checkout
+loaders:
+  - name: CDN global
+    description: window.ramper global object exposing the SDK methods when loaded via CDN.
+  - name: npm packages
+    description: "@ramper/* and @ramper-v2/* packages (see packages/ramper-packages.yml)."

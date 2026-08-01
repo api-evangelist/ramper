@@ -1,0 +1,89 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.npmjs.com/org/ramper + docs.ramper.xyz SDK specifications
+notes: >-
+  Ramper ships its Embedded Wallet SDK as a family of first-party npm packages under
+  the @ramper and @ramper-v2 scopes. Versions captured from the npm registry
+  dist-tags.latest on 2026-07-20. There is no public REST API; integration is
+  exclusively via these client SDKs plus a Developer Dashboard for App ID/App Secret.
+packages:
+  - language: javascript
+    registry: npm
+    name: "@ramper-v2/core"
+    url: https://www.npmjs.com/package/@ramper-v2/core
+    install: npm install @ramper-v2/core
+    version: 1.4.3
+    official: true
+    description: Ramper v2 core Embedded Wallet SDK (init, provider sign-in, session).
+  - language: javascript
+    registry: npm
+    name: "@ramper-v2/multi"
+    url: https://www.npmjs.com/package/@ramper-v2/multi
+    install: npm install @ramper-v2/multi
+    version: 1.4.3
+    official: true
+    description: Ramper v2 multichain Embedded Wallet SDK.
+  - language: javascript
+    registry: npm
+    name: "@ramper/core"
+    url: https://www.npmjs.com/package/@ramper/core
+    install: npm install @ramper/core
+    version: 0.0.38
+    official: true
+    description: Ramper v1 core Embedded Wallet SDK.
+  - language: javascript
+    registry: npm
+    name: "@ramper/ethereum"
+    url: https://www.npmjs.com/package/@ramper/ethereum
+    install: npm install @ramper/ethereum
+    version: 0.0.38
+    official: true
+    description: EVM/Ethereum SDK returning an ethers.js Signer for any ethers-compatible chain.
+  - language: javascript
+    registry: npm
+    name: "@ramper/near"
+    url: https://www.npmjs.com/package/@ramper/near
+    install: npm install @ramper/near
+    version: 0.0.34
+    official: true
+    description: NEAR blockchain Embedded Wallet SDK.
+  - language: javascript
+    registry: npm
+    name: "@ramper/terra"
+    url: https://www.npmjs.com/package/@ramper/terra
+    install: npm install @ramper/terra
+    version: 0.0.32
+    official: true
+    description: Terra blockchain Embedded Wallet SDK.
+  - language: javascript
+    registry: npm
+    name: "@ramper/chiliz"
+    url: https://www.npmjs.com/package/@ramper/chiliz
+    install: npm install @ramper/chiliz
+    version: 0.0.38
+    official: true
+    description: Chiliz Chain Embedded Wallet SDK.
+  - language: javascript
+    registry: npm
+    name: "@ramper/viction"
+    url: https://www.npmjs.com/package/@ramper/viction
+    install: npm install @ramper/viction
+    version: 0.0.33
+    official: true
+    description: Viction blockchain Embedded Wallet SDK.
+  - language: javascript
+    registry: npm
+    name: "@ramper/react-native-core"
+    url: https://www.npmjs.com/package/@ramper/react-native-core
+    install: npm install @ramper/react-native-core
+    version: 1.0.4
+    official: true
+    description: Ramper React Native core SDK for mobile blockchain access via SSO accounts.
+  - language: javascript
+    registry: npm
+    name: "@ramper/react-native-evm"
+    url: https://www.npmjs.com/package/@ramper/react-native-evm
+    install: npm install @ramper/react-native-evm
+    version: 1.0.4
+    official: true
+    description: Ramper React Native EVM SDK (pairs with react-native-core) for Ethereum wallets.

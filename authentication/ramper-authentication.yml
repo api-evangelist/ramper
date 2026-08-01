@@ -1,0 +1,48 @@
+generated: '2026-07-20'
+method: searched
+source: https://docs.ramper.xyz/developer-guide/developer-dashboard + https://docs.ramper.xyz/embedded-wallet-sdk/quickstart/for-web-apps/version-1/sdk-specifications/initialization
+docs: https://docs.ramper.xyz/developer-guide/developer-dashboard
+notes: >-
+  Ramper is an SDK-first embedded wallet product with no public REST API, so this
+  auth profile is captured from the developer documentation rather than derived
+  from an OpenAPI spec. Two layers of authentication apply: (1) the DApp-to-Ramper
+  app credentials issued by the Developer Dashboard, and (2) the end-user social
+  login that mints a self-custody wallet.
+summary:
+  types: [apiKey, oauth2, openIdConnect]
+  api_key_in: [config]
+  oauth2_flows: [social-login]
+app_credentials:
+  - name: App ID
+    role: public client identifier passed to the SDK init() function; used to track user activity.
+    secret: false
+  - name: App Secret
+    role: server-side secret used to verify the issued idToken and manage user sessions.
+    secret: true
+    warning: Never expose the App Secret in client-side code.
+end_user_auth:
+  model: social-login (OAuth) to non-custodial wallet
+  session_token: idToken (JWT verified server-side with the App Secret)
+  providers:
+    - Email
+    - Google
+    - Facebook
+    - Apple
+    - Twitter
+  self_custody: true
+schemes:
+  - name: RamperAppId
+    type: apiKey
+    in: config
+    description: App ID supplied to the SDK init() function.
+    sources: [docs]
+  - name: RamperAppSecret
+    type: apiKey
+    in: server
+    description: App Secret used server-side to verify the user idToken.
+    sources: [docs]
+  - name: RamperSocialLogin
+    type: oauth2
+    flow: social-login
+    description: End-user social OAuth login (Email/Google/Facebook/Apple/Twitter) that creates or unlocks a self-custody wallet and issues an idToken.
+    sources: [docs]

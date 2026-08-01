@@ -1,7 +1,16 @@
 aid: ramper
 name: Ramper
-description: Ramper is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Ramper is a Web3 embedded-wallet and social-login platform that lets DApps onboard
+  users with familiar Web2 credentials (Email, Google, Facebook, Apple, Twitter) and
+  instantly create non-custodial, self-custody wallets with no seed phrases, browser
+  extensions, or downloads. Its Embedded Wallet SDK ships as first-party npm packages
+  for web (@ramper-v2/core, @ramper-v2/multi, @ramper/ethereum, @ramper/near,
+  @ramper/terra, @ramper/chiliz, @ramper/viction), React Native mobile, Unity, and
+  Telegram Mini Apps, and is compatible with ethers.js across EVM chains plus NEAR,
+  Solana, BNB Chain, Sei, and Viction. Ramper also provides an embeddable WalletView
+  (balances, transfers, transaction signing, fiat on-ramp) and a fiat NFT Checkout SDK.
+  Developers integrate via an App ID / App Secret issued from the Developer Dashboard.
 url: https://raw.githubusercontent.com/api-evangelist/ramper/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,34 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Web3
+- Wallet
+- Embedded Wallet
+- Blockchain
+- Social Login
+- Authentication
+- SDK
+- NFT
+- Cryptocurrency
+- DeFi
+image: https://ramper.xyz/thumbnail.png
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +55,34 @@ maintainers:
 common:
 - type: Website
   url: https://ramper.xyz
+- type: DeveloperPortal
+  url: https://developer.ramper.xyz
+- type: Documentation
+  url: https://docs.ramper.xyz/
+- type: GettingStarted
+  url: https://docs.ramper.xyz/embedded-wallet-sdk/quickstart
+- type: Blog
+  url: https://blog.ramper.xyz/
+- type: GitHubOrganization
+  url: https://github.com/ramper-xyz
+- type: TermsOfService
+  url: https://docs.ramper.xyz/embedded-wallet-sdk/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://docs.ramper.xyz/embedded-wallet-sdk/privacy-policy
+- type: Packages
+  url: packages/ramper-packages.yml
+- type: SDKs
+  url: packages/ramper-packages.yml
+- type: Components
+  url: components/ramper-components.yml
+- type: Authentication
+  url: authentication/ramper-authentication.yml
+- type: DomainSecurity
+  url: security/ramper-domain-security.yml
+- type: LLMsTxt
+  url: llms/ramper-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
