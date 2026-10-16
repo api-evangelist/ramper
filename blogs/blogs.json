@@ -2,6 +2,13 @@
   "repo": "ramper",
   "feeds": [
     {
+      "source": "https://blog.ramper.xyz/",
+      "feed_url": "https://blog.ramper.xyz/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
       "source": "https://docs.ramper.xyz/embedded-wallet-sdk/quickstart",
       "feed_url": "https://docs.ramper.xyz/embedded-wallet-sdk/quickstart",
       "title": "",
@@ -10,5 +17,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "fetched": "2026-10-10T13:15:00Z"
 }
